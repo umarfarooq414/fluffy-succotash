@@ -1,0 +1,92 @@
+.userNotification button {
+  background-color: transparent;
+  border: none;
+  background: transparent;
+}
+.notificationBody {
+  padding: 30px;
+  /* max-width: 250px; */
+  width: 30%;
+  position: fixed;
+  z-index: 3;
+  right: 0;
+  top: 0;
+  height: 100%;
+  background-color: #fff;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 0.15s;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border: 1px solid #e5e7eb;
+}
+.notificationTitle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.notificationTitle h2 {
+  margin: 0px;
+  font-size: 16px;
+  color: #000;
+}
+.notificationTitle span {
+  font-weight: 900;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #dd3333;
+  border-radius: 50%;
+  line-height: 18px;
+  text-align: center;
+  font-size: 13px;
+  position: relative;
+  top: -15px;
+  right: -15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.notifyBody {
+  margin: 20px 0px 0px;
+}
+.notifyBody ul {
+  margin: 0;
+  padding: 0;
+}
+.notifyBody ul li {
+  list-style: none;
+  text-align: left;
+  margin: 0px 0px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  /* align-items: center;*/
+}
+.notifyBody ul li img {
+  width: 16px;
+  display: inline-block;
+}
+.notifyBody ul li h4 {
+  display: inline-block;
+  font-size: 14px;
+  margin: 0px 10px;
+  vertical-align: super;
+}
+.notifyBody ul li span {
+  font-weight: 600;
+  line-height: 18px;
+  text-align: center;
+  font-size: 13px;
+  position: relative;
+}
+@media screen and (max-width: 768px) {
+  .userNotification {
+    display: block;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+  }
+  .userNotification .iconNotificationButton {
+    display: block;
+  }
+}

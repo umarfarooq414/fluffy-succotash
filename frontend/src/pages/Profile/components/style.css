@@ -1,0 +1,227 @@
+.type {
+    font-family: "Poppins", sans-serif;
+    font-size: 0.88rem !important;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    text-transform: capitalize;
+}
+.plan {
+    font-weight: 700 !important;
+}
+.crnt_plan .col1 {
+    background: #f7f7f7;
+    padding: 8px 8px !important;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    color: #b1b1b1;
+    border-bottom: 3px solid #fff;
+}
+.crnt_plan .col2 {
+    border-bottom: 3px solid #fff;
+    border-left: 3px solid #fff;
+    text-align: right;
+    font-family: "Poppins", sans-serif;
+    color: #000;
+    background-color: #f7f7f7 !important;
+    padding: 8px 8px !important;
+    font-size: 14px;
+}
+.premium_plan {
+    color: #000;
+    font-weight: 700 !important;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    line-height: 1;
+}
+.dynamic_plan {
+    height: 100px;
+    overflow-y: scroll;
+    text-transform: capitalize;
+}
+.dynamic_plan .col-7 {
+    background: #f7f7f7;
+    padding: 8px 10px !important;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #b1b1b1;
+    border-bottom: 3px solid #fff;
+}
+.dynamic_plan h6 {
+    font-size: 14px;
+    margin: 0;
+}
+.dynamic_plan .col-5 {
+    border-bottom: 3px solid #fff;
+    border-left: 3px solid #fff;
+    text-align: right;
+    margin: auto;
+}
+.rounded-top {
+    background: #fff;
+    border-bottom: 3px solid #e5e8ed;
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+}
+.profile__head th,
+.profile__body td {
+    vertical-align: bottom;
+    border-bottom: 2px solid #e9ecef;
+    color: #495057;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    padding: 8.8px;
+}
+.userRoles:first-child {
+    border: none;
+}
+
+.search_bar {
+    position: relative;
+    border: 1px solid #dee2e6 !important;
+    border-radius: 15px;
+    display: flex !important;
+    flex-wrap: nowrap;
+}
+.search_bar input {
+    border-radius: 15px;
+    width: 233px;
+}
+.search-icon {
+    color: #495057 !important;
+    background-color: unset !important;
+    border: unset !important;
+    position: absolute;
+
+    padding: 9px 6px 7px 6px;
+}
+.search_clear_icon {
+    position: absolute;
+    right: 8px;
+    top: 6px;
+    cursor: pointer;
+}
+
+.search-icon:hover {
+    color: #495057;
+}
+.search_bar .search_container .search_clear_icon > i {
+    font-size: 16px;
+    color: #999999;
+}
+.search_bar .search-icon > i {
+    font-size: 16px;
+    color: #999999;
+}
+
+.para {
+    font-size: 16px;
+    text-transform: inherit;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    text-align: left;
+}
+.scroll_list {
+    max-height: 500px;
+    overflow-y: scroll;
+}
+.profile__head th.heading {
+    font-weight: 700 !important;
+}
+.booleanFlag .yes {
+    border: 1px solid #006971;
+    color: #006971;
+    width: 58px;
+    text-align: center;
+}
+.booleanFlag label {
+    border-radius: 13px;
+    padding: 5px 16px;
+    text-transform: capitalize;
+}
+.booleanFlag .no {
+    border: 1px solid #710000;
+    color: #710000;
+    width: 58px;
+    text-align: center;
+}
+.border-botom {
+    border-bottom: 3px solid #e5e8ed;
+}
+.heading {
+    font-weight: 700 !important;
+    text-transform: capitalize !important;
+    font-size: 14px !important;
+    padding: 8.8px;
+    color: #495057 !important;
+    font-family: "Poppins", sans-serif;
+}
+.scroll_list::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+.profile-eye {
+    float: right;
+    position: absolute;
+    z-index: 1;
+    right: 10px;
+    top: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.profile__body td {
+    border: 1px solid #e9ecef !important;
+}
+.profle__head th {
+    border-bottom-width: 2px;
+}
+.companies {
+    color: #495057;
+    font-size: 15px;
+}
+.companies tbody.userCompaniesList tr:last-child td {
+    border-bottom-width: 0px;
+}
+.companies tbody.userCompaniesList tr:hover td {
+    --bs-table-accent-bg: transparent;
+    color: #495057;
+}
+
+.dynamic_plan::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.dynamic_plan::-webkit-scrollbar-thumb {
+    background-color: var(--color-grey);
+    border-radius: 5%;
+    border: 3px solid transparent;
+}
+
+.userRoles {
+    padding: 0.55rem;
+    vertical-align: top;
+    border-top: 1px solid #e9ecef;
+    display: block;
+}
+
+@media only screen and (min-width: 1920px) {
+    .profile_avatar {
+        width: 55%;
+    }
+}
+@media only screen and (max-width: 1220px) {
+    .first_name .require_asterik {
+        flex: 40 1 0% !important;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .crnt_plan h6 {
+        font-size: 14px;
+    }
+    .dynamic_plan h6 {
+        font-size: 12px;
+    }
+}

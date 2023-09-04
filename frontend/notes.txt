@@ -1,0 +1,10 @@
+all routes are mentioned in 
+src/common/fontFamily/routesNames
+
+
+all user and admin tabs are listed in 
+pages/main-page-container/index.js
+
+
+single product info card is in 
+components/info-card/info-card.js

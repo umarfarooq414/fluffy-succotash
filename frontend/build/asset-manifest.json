@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.75c86401.css",
+    "main.js": "/static/js/main.612554b8.js",
+    "static/js/787.523a29ce.chunk.js": "/static/js/787.523a29ce.chunk.js",
+    "static/media/MADE TOMMY Regular_PERSONAL USE.otf": "/static/media/MADE TOMMY Regular_PERSONAL USE.101be848d2d18e7296bc.otf",
+    "static/media/MADE TOMMY Bold_PERSONAL USE.otf": "/static/media/MADE TOMMY Bold_PERSONAL USE.463024f431b0a3769ed9.otf",
+    "static/media/MADE TOMMY ExtraBold_PERSONAL USE.otf": "/static/media/MADE TOMMY ExtraBold_PERSONAL USE.76e6daa1c9100e32f75e.otf",
+    "static/media/MADE TOMMY Light_PERSONAL USE.otf": "/static/media/MADE TOMMY Light_PERSONAL USE.baa9639fea2a3259ba0b.otf",
+    "index.html": "/index.html",
+    "main.75c86401.css.map": "/static/css/main.75c86401.css.map",
+    "main.612554b8.js.map": "/static/js/main.612554b8.js.map",
+    "787.523a29ce.chunk.js.map": "/static/js/787.523a29ce.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.75c86401.css",
+    "static/js/main.612554b8.js"
+  ]
+}
